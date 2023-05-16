@@ -1,0 +1,108 @@
+body {
+    margin: 0;
+    font: 400 normal 1.125rem/1.35 "segoe", "Segoe UI", Arial, sans-serif;
+}
+
+.signin {
+    background: url("../img/background.jpg") no-repeat fixed;
+    background-size: cover;
+}
+
+.static-strip {
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+    height: 60px;
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.bound {
+    width: 87%;
+    max-width: calc(996 * 1px);
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    -webkit-transform: translateY(-1px);
+    transform: translateY(-1px);
+}
+
+mark {
+    background: none;
+    color: inherit;
+}
+
+.corp-name {
+    width: 104px;
+    height: 22px;
+    display: block;
+}
+
+.corp-name a {
+            display: block;
+            width: 100%;
+            height: 100%;
+            background: url(../img/favicon.ico) no-repeat left center;
+            background-size: contain;
+            text-indent: 30%;
+    /*overflow: hidden;*/
+    /*white-space: nowrap;*/
+    /*color: transparent;*/
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.signin-sysname{
+    height: 15px;
+}
+
+.signin-info{
+    margin-top: 20px;
+    height: 350px;
+    /*background: white;*/
+}
+
+.signin-info form{
+    /*height: 100%;*/
+    /*padding: 20px;*/
+}
+
+.signinpanel {
+    margin: 100px  auto;
+    width: 340px;
+    height: 385px;
+    padding: 0  20px 20px;
+    color: rgba(255,255,255,.95);
+}
+
+.signinpanel form {
+    height: 290px;
+    background: rgba(255,255,255,.2);
+    border: 1px solid rgba(255,255,255,.3);
+    -moz-box-shadow: 0 3px 0 rgba(12,12,12,.03);
+    -webkit-box-shadow: 0 3px 0 rgba(12,12,12,.03);
+    box-shadow: 0 3px 0 rgba(12,12,12,.03);
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    padding: 30px;
+}
+
+/*.signinpanel form {*/
+/*    margin-top: 20px;*/
+/*    background: red;*/
+/*}*/
+
+h4{
+
+    font-family: "open sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    color: #676a6c;
+    overflow-x: hidden;
+    font-weight: 500;
+    line-height: 1.1;
+}
+
+strong{
+    font-weight: 700;
+}
+
